@@ -75,6 +75,6 @@ Input manipulation attacks represent a significant threat to machine learning sy
 - "Adversarial Machine Learning" by Nicolas Papernot
 - TensorFlow Security Best Practices
 
----
+----
 
 *This blog post is part of our ongoing series about AI security and vulnerability assessment.*
