@@ -23,15 +23,15 @@ A structured and easy-to-follow list for security analysts and VAPT experts.
 | **ID**        | **Vulnerability Name** |
 |--------------|--------------------|
 | **LLM01:2023** | Prompt Injection (Jailbreak Prompting) |
-| **LLM02:2023** | Data Leakage (Sensitive Information Disclosure) |
-| **LLM03:2023** | Inadequate Sandboxing (Unrestricted Execution of Commands) |
-| **LLM04:2023** | Unauthorized Code Execution |
-| **LLM05:2023** | SSRF Vulnerabilities (Server-Side Request Forgery) |
-| **LLM06:2023** | Overreliance on LLM-Generated Content |
-| **LLM07:2023** | Inadequate AI Alignment (Ethical Misuse & Bias Exploits) |
-| **LLM08:2023** | Insufficient Access Controls |
-| **LLM09:2023** | Improper Error Handling (Information Leakage in Errors) |
-| **LLM10:2023** | Training Data Poisoning |
+| **LLM02:2023** | Insecure Output Handling |
+| **LLM03:2023** | Training Data Poisoning |
+| **LLM04:2023** | Denial of Service |
+| **LLM05:2023** | Supply Chain	Vulnerabilities |
+| **LLM06:2023** | Permission Issues |
+| **LLM07:2023** | Data Leakage (Sensitive Information Disclosure) |
+| **LLM08:2023** | Excessive Agency |
+| **LLM09:2023** | Overreliance on LLM-Generated Content |
+| **LLM10:2023** | Insecure Plugins |
 
 ---
 
