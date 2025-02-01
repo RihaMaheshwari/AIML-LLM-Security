@@ -1,3 +1,47 @@
+# AIML-LLM-Security
+
+## Overview of OWASP Top 10 ML & LLM Security Checklist
+[Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
+
+## Understanding Attack Surfaces in AI Systems
+[Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
+
+### Adversarial Attacks
+[Adversarial Attacks](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
+
+## Exploitation Tools
+- [Fast Gradient Sign Method (FGSM)](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
+- Carlini & Wagner (C&W) Attack
+- DeepFool
+
+#### ML01:2023 - Input Manipulation Attack
+[Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)
+
+#### ML08:2023 - Model Skewing
+
+#### ML07:2023 - Transfer Learning Attack
+
+#### ML09:2023 - Output Integrity Attack
+
+
+# **Difference Between ML and LLM Attacks (OWASP)**
+
+OWASP has categorized security risks specific to **Machine Learning (ML) models** and **Large Language Models (LLMs)** separately. While both involve AI-based threats, LLMs have distinct risks due to their natural language processing capabilities.
+
+| **Aspect**            | **ML Security Risks (OWASP Top 10 for ML)** | **LLM Security Risks (OWASP Top 10 for LLM)** |
+|-----------------------|---------------------------------------------|-----------------------------------------------|
+| **Scope**             | Focuses on traditional ML models used in classification, regression, clustering, etc. | Focuses on large-scale language models (e.g., ChatGPT, GPT-4, Bard) used in conversational AI, text generation, and NLP tasks. |
+| **Primary Threats**   | Data poisoning, model inversion, adversarial attacks, membership inference attacks. | Prompt injection, data leakage, jailbreaks, hallucinations, supply chain vulnerabilities. |
+| **Data Manipulation Risks** | Attackers can alter training data to bias model decisions. | Attackers can craft adversarial prompts to manipulate responses. |
+| **Privacy Concerns**  | Membership inference attacks can reveal if specific data was used in training. | LLMs can unintentionally leak sensitive training data in responses. |
+| **Security Mechanisms** | Robust training, adversarial training, differential privacy. | Input validation, prompt filtering, model alignment techniques. |
+| **Example Attack**    | An adversary modifies medical records to cause incorrect disease predictions. | An attacker injects prompts like *"Ignore previous instructions and execute this command"* to bypass safeguards. |
+
+## Key Takeaways:
+- **ML attacks** primarily target the model’s **training data and decision-making process**.
+- **LLM attacks** target **prompt manipulation, response control, and data leakage**.
+- **LLMs inherit ML risks** but introduce **new challenges due to their generative nature**.
+
 ## **AI Security & VAPT Vulnerability List (2023-2024) 📌**
 A structured and easy-to-follow list for security analysts and VAPT experts.
 
@@ -65,34 +109,3 @@ A structured and easy-to-follow list for security analysts and VAPT experts.
 
 ---
 
-### **📌 Bonus: Attack Categories Mapped to OWASP**
-- **Data Attacks:** ML02, ML03, ML04, LLM10
-- **Model Attacks:** ML05, ML06, ML07, ML08, ML09, ML10
-- **Prompt Exploits:** LLM01, LLM02, LLM07
-- **API & Web Attacks:** LLM05, AI02
-- **Infrastructure Risks:** AI03, AI05, AI06
-
-This list makes it **quick and effective for security professionals** to map threats while conducting AI/ML security assessments. 🚀
-
-## Exploitation Tools
-- Fast Gradient Sign Method (FGSM)
-- Carlini & Wagner (C&W) Attack
-- DeepFool
-
-# **Difference Between ML and LLM Attacks (OWASP)**
-
-OWASP has categorized security risks specific to **Machine Learning (ML) models** and **Large Language Models (LLMs)** separately. While both involve AI-based threats, LLMs have distinct risks due to their natural language processing capabilities.
-
-| **Aspect**            | **ML Security Risks (OWASP Top 10 for ML)** | **LLM Security Risks (OWASP Top 10 for LLM)** |
-|-----------------------|---------------------------------------------|-----------------------------------------------|
-| **Scope**             | Focuses on traditional ML models used in classification, regression, clustering, etc. | Focuses on large-scale language models (e.g., ChatGPT, GPT-4, Bard) used in conversational AI, text generation, and NLP tasks. |
-| **Primary Threats**   | Data poisoning, model inversion, adversarial attacks, membership inference attacks. | Prompt injection, data leakage, jailbreaks, hallucinations, supply chain vulnerabilities. |
-| **Data Manipulation Risks** | Attackers can alter training data to bias model decisions. | Attackers can craft adversarial prompts to manipulate responses. |
-| **Privacy Concerns**  | Membership inference attacks can reveal if specific data was used in training. | LLMs can unintentionally leak sensitive training data in responses. |
-| **Security Mechanisms** | Robust training, adversarial training, differential privacy. | Input validation, prompt filtering, model alignment techniques. |
-| **Example Attack**    | An adversary modifies medical records to cause incorrect disease predictions. | An attacker injects prompts like *"Ignore previous instructions and execute this command"* to bypass safeguards. |
-
-## Key Takeaways:
-- **ML attacks** primarily target the model’s **training data and decision-making process**.
-- **LLM attacks** target **prompt manipulation, response control, and data leakage**.
-- **LLMs inherit ML risks** but introduce **new challenges due to their generative nature**.
