@@ -1,13 +1,20 @@
 # AIML-LLM-Security
 
-## [Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
-## [Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
-### [Adversarial Attacks](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
-#### [ML01:2023 - Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)
-#### ML08:2023 - Model Skewing
-#### ML07:2023 - Transfer Learning Attack
-#### ML09:2023 - Output Integrity Attack
+Below are the foundational resources to understand ML/LLM security concepts and attack surfaces:
 
+## Educational Resources
+- [Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
+- [Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
+- [Adversarial Attacks Explained](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
+
+## Adversarial Attacks
+
+| ID | Attack Type | Documentation | Blog Post |
+|----|-------------|---------------|------------|
+| **ML01:2023** | Input Manipulation Attack | [Github](https://github.com/RihaMaheshwari/AIML-LLM-Security/blob/main/Attacks/ML01-2023-Input_Manipulation_Attack/ML01%3A2023%20-%20Input%20Manipulation%20Attack.md) | [Blog](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html) |
+| **ML08:2023** | Model Skewing | [Github](https://github.com/RihaMaheshwari/AIML-LLM-Security/blob/main/Attacks/ML08%3A2023%20Model%20Skewing/ML08%3A2023%20Model%20Skewing.md) | - |
+| **ML07:2023** | Transfer Learning Attack | - | - |
+| **ML09:2023** | Output Integrity Attack | [Github](https://github.com/RihaMaheshwari/AIML-LLM-Security/blob/main/Attacks/ML09%3A2023%20Output%20Integrity%20Attack/ML09%3A2023%20Output%20Integrity%20Attack.md) | - |
 
 
 # **Difference Between ML and LLM Attacks (OWASP)**
@@ -24,7 +31,7 @@ OWASP has categorized security risks specific to **Machine Learning (ML) models*
 | **Example Attack**    | An adversary modifies medical records to cause incorrect disease predictions. | An attacker injects prompts like *"Ignore previous instructions and execute this command"* to bypass safeguards. |
 
 ## Key Takeaways:
-- **ML attacks** primarily target the model’s **training data and decision-making process**.
+- **ML attacks** primarily target the model's **training data and decision-making process**.
 - **LLM attacks** target **prompt manipulation, response control, and data leakage**.
 - **LLMs inherit ML risks** but introduce **new challenges due to their generative nature**.
 
@@ -95,3 +102,9 @@ A structured and easy-to-follow list for security analysts and VAPT experts.
 
 ---
 
+## Contributing
+Feel free to contribute by:
+- Adding new attack types
+- Improving documentation
+- Sharing real-world examples
+- Suggesting defense strategies
