@@ -79,8 +79,8 @@ Step 3: Executing the Attack: The attacker uploads the adversarial image through
 
 
 ## References
-- [text](https://owasp.org/www-project-machine-learning-security-top-10/docs/ML01_2023-Input_Manipulation_Attack)
-[text](https://my.ai.se/resources/3229)
-[Geeks](https://www.researchgate.net/publication/349037772_Manipulation_Attacks_in_Local_Differential_Privacy)
+- [OWASP](https://owasp.org/www-project-machine-learning-security-top-10/docs/ML01_2023-Input_Manipulation_Attack)
+- [AISE](https://my.ai.se/resources/3229)
+- [Research Gate](https://www.researchgate.net/publication/349037772_Manipulation_Attacks_in_Local_Differential_Privacy)
 
 ---
