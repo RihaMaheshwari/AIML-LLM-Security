@@ -1,27 +1,13 @@
 # AIML-LLM-Security
 
-## Overview of OWASP Top 10 ML & LLM Security Checklist
-[Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
-
-## Understanding Attack Surfaces in AI Systems
-[Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
-
-### Adversarial Attacks
-[Adversarial Attacks](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
-
-## Exploitation Tools
-- [Fast Gradient Sign Method (FGSM)](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
-- Carlini & Wagner (C&W) Attack
-- DeepFool
-
-#### ML01:2023 - Input Manipulation Attack
-[Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)
-
+## [Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
+## [Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
+### [Adversarial Attacks](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
+#### [ML01:2023 - Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)
 #### ML08:2023 - Model Skewing
-
 #### ML07:2023 - Transfer Learning Attack
-
 #### ML09:2023 - Output Integrity Attack
+
 
 
 # **Difference Between ML and LLM Attacks (OWASP)**
