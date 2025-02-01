@@ -6,7 +6,7 @@ A structured and easy-to-follow list for security analysts and VAPT experts.
 ## **🔹 Machine Learning (ML) Security Risks**
 | **ID**        | **Vulnerability Name** |
 |--------------|--------------------|
-| **ML01:2023** | [Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html) ([Adversarial Attack])(https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html) |
+| **ML01:2023** | [Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)-[Adversarial Attack](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html) |
 | **ML02:2023** | Data Poisoning Attack |
 | **ML03:2023** | Model Inversion Attack (Training Data Reconstruction) |
 | **ML04:2023** | Membership Inference Attack |
