@@ -2,7 +2,6 @@
 
 Below are the foundational resources to understand ML/LLM security concepts and attack surfaces:
 
-## Educational Resources
 - [Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
 - [Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
 - [Adversarial Attacks Explained](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html)
@@ -16,6 +15,7 @@ Below are the foundational resources to understand ML/LLM security concepts and 
 | **ML07:2023** | Transfer Learning Attack | - | - |
 | **ML09:2023** | Output Integrity Attack | [Github](https://github.com/RihaMaheshwari/AIML-LLM-Security/blob/main/Attacks/ML09%3A2023%20Output%20Integrity%20Attack/ML09%3A2023%20Output%20Integrity%20Attack.md) | - |
 
+---
 
 # **Difference Between ML and LLM Attacks (OWASP)**
 
@@ -35,12 +35,12 @@ OWASP has categorized security risks specific to **Machine Learning (ML) models*
 - **LLM attacks** target **prompt manipulation, response control, and data leakage**.
 - **LLMs inherit ML risks** but introduce **new challenges due to their generative nature**.
 
+---
+
 ## **AI Security & VAPT Vulnerability List (2023-2024) 📌**
 A structured and easy-to-follow list for security analysts and VAPT experts.
 
----
-
-## **🔹 Machine Learning (ML) Security Risks**
+## **🔹 Machine Learning (ML:2023) Security Risks**
 | **ID**        | **Vulnerability Name** |
 |--------------|--------------------|
 | **ML01:2023** | [Input Manipulation Attack](https://jagskap.blogspot.com/2025/02/input-manipulation-attacks-on-ml-models.html)-[Adversarial Attack](https://jagskap.blogspot.com/2025/02/adversarial-attack-in-ml-explained.html) |
@@ -85,20 +85,6 @@ A structured and easy-to-follow list for security analysts and VAPT experts.
 | **LLM08:2025** | Vector and Embedding Weaknesses |
 | **LLM09:2025** | Misinformation |
 | **LLM10:2025** | Unbounded Consumption |
-
----
-
-## **🔹 General AI Security Risks (LLMs & ML Models)**
-| **ID**        | **Vulnerability Name** |
-|--------------|--------------------|
-| **AI01:2023** | Insecure Output Handling |
-| **AI02:2023** | Model Denial of Service (DoS) |
-| **AI03:2023** | AI Supply-Chain Vulnerabilities |
-| **AI04:2023** | Sensitive Information Disclosure |
-| **AI05:2023** | Insecure Plugin Design |
-| **AI06:2023** | Excessive Agency (LLM Auto-Execution Risks) |
-| **AI07:2023** | Model Overreliance (Hallucination Trust Issues) |
-| **AI08:2023** | Model Theft (Extraction, Weights Leaks) |
 
 ---
 
