@@ -1,6 +1,6 @@
 # AIML-LLM-Security
 
-Below are the foundational resources to understand ML/LLM security concepts and attack surfaces:
+I have written these blogs to help you understand AI, ML, and LLM more clearly. Below are the foundational resources to grasp ML/LLM security concepts and attack surfaces:
 
 - [Overview of OWASP Top 10 ML & LLM Security Checklist](https://jagskap.blogspot.com/2025/02/machine-learning-ml-large-language.html)
 - [Understanding Attack Surfaces in AI Systems](https://jagskap.blogspot.com/2025/02/understanding-attack-surface-of-AI-lifecycle.html)
